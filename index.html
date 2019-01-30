@@ -8,69 +8,78 @@
     <title>Brice's Profile</title>
   </head>
   <body>
-    <div class="container">
-      <div class="card text-center">
-        <img src="images/profile2.jpg" id="profilepic">
-        <h1>Brice Chapuis</h1>
-        <h2>Programmer</h2>
-        <p id="presently">Presently learning code <strong>@Le Wagon!</strong></p>
-        <a href="https://www.lewagon.com" class="button">See for yourself</a>
-        <ul class="icon">
-          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fab fa-github"></i></a></li>
-          <li><a href="#"><i class="fab fa-steam"></i></a></li>
-          <li><a href="#"><i class="fab fa-xbox"></i></a></li>
-        </ul>
-      </div>
-      <div class="card">
-        <h2>My favorite movies</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td><img src="images/gladiator.jpg" class="movie_img"></td>
-              <td>
-                <a href="https://www.imdb.com/title/tt0172495/?ref_=nv_sr_1" target="_blank"><h3>Gladiator</h3></a>
-                <p>A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.</p>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="images/machete.jpg" class="movie_img"></td>
-              <td>
-                <a href="https://www.imdb.com/title/tt0985694/?ref_=nv_sr_2" target="_blank"><h3>Machete</h3></a>
-                <p>After being set-up and betrayed by the man who hired him to assassinate a Texas Senator, an ex-Federale launches a brutal rampage of revenge against his former boss.</p>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="images/Lord.jpg" class="movie_img"></td>
-              <td>
-                <a href="https://www.imdb.com/title/tt0167261/?ref_=nv_sr_3" target="_blank"><h3>Lord of the Rings : The Two Towers</h3></a>
-                <p>While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="card text-center">
-        <h2>About this page</h2>
-        <p>This page has been coded during the <a href="https://lewagon.com/program">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
-        </p>
-        <ul class="icon">
-          <li>
-            <a href="#">
-              <i class="fa fa-heart"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fa fa-share"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fa fa-star"></i>
-            </a>
-          </li>
-        </ul>
+    <div id="sidebar">
+      <ul>
+        <li><a href="#summary"><i class="fas fa-info"></i></a></li>
+        <li><a href="#favorite_movies"><i class="fas fa-film"></i></a></li>
+        <li><a href="#footer"><i class="fas fa-question"></i></a></li>
+      </ul>
+    </div>
+    <div id="content">
+      <div id="summary" class="container">
+        <div class="card text-center">
+          <img src="images/profile2.jpg" id="profilepic">
+          <h1>Brice Chapuis</h1>
+          <h2>Programmer</h2>
+          <p id="presently">Presently learning code <strong>@Le Wagon!</strong></p>
+          <a href="https://www.lewagon.com" class="button">See for yourself</a>
+          <ul class="icon">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            <li><a href="#"><i class="fab fa-steam"></i></a></li>
+            <li><a href="#"><i class="fab fa-xbox"></i></a></li>
+          </ul>
+        </div>
+        <div class="card" id="favorite_movies">
+          <h2>My favorite movies</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td><img src="images/gladiator.jpg" class="movie_img"></td>
+                <td>
+                  <a href="https://www.imdb.com/title/tt0172495/?ref_=nv_sr_1" target="_blank"><h3>Gladiator</h3></a>
+                  <p>A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/machete.jpg" class="movie_img"></td>
+                <td>
+                  <a href="https://www.imdb.com/title/tt0985694/?ref_=nv_sr_2" target="_blank"><h3>Machete</h3></a>
+                  <p>After being set-up and betrayed by the man who hired him to assassinate a Texas Senator, an ex-Federale launches a brutal rampage of revenge against his former boss.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/Lord.jpg" class="movie_img"></td>
+                <td>
+                  <a href="https://www.imdb.com/title/tt0167261/?ref_=nv_sr_3" target="_blank"><h3>Lord of the Rings : The Two Towers</h3></a>
+                  <p>While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card text-center" id="footer">
+          <h2>About this page</h2>
+          <p>This page has been coded during the <a href="https://lewagon.com/program">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
+          </p>
+          <ul class="icon">
+            <li>
+              <a href="#">
+                <i class="fa fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-share"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-star"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
